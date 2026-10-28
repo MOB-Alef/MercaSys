@@ -1,2 +1,26 @@
+
+# Python
 __pycache__/
-__pycache__/
+*.py[cod]
+*.pyo
+
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Variáveis de ambiente e credenciais
+.env
+.env.*
+!.env.example
+
+# Banco de dados local SQLite
+db.sqlite3
+
+# Arquivos de desenvolvimento
+.vscode/
+*.log
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
